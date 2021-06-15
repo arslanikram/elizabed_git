@@ -4,12 +4,12 @@
         <div class="content-wrapper">
           <div class="page-header">
             <h3 class="page-title">
-                Edit SubCategory
+                Edit Product
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">SubCategory</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Edit SubCategory</li>
+                <li class="breadcrumb-item"><a href="#">Products</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Edit Product</li>
                 </ol>
             </nav>
           </div>
@@ -17,7 +17,7 @@
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Edit SubCategory</h4>
+                  <h4 class="card-title">Edit Product</h4>
                   
                   <form class="forms-sample" action="{{route('product.update', $product->id)}}" method="POST" enctype="multipart/form-data">
                   @csrf
